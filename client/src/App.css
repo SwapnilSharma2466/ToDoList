@@ -1,0 +1,141 @@
+body {
+  background-color: #121212;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #fff;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1f1f1f;
+  width: 90%;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+}
+
+.App h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.form input[type="text"] {
+  padding: 10px;
+  width: 100%;
+  max-width: 500px;
+  border: none;
+  border-radius: 6px;
+  background-color: #292929;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.form input[type="text"]:focus,
+.form button[type="submit"]:focus {
+  outline: none;
+}
+
+.form button[type="submit"] {
+  background-color: #00ffcc;
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.form button[type="submit"]:hover {
+  transform: translateY(-5px);
+  background-color: #00ff99;
+}
+
+.todo-listItems {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #292929;
+}
+
+.item-content {
+  width: 60%;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.todo-item button {
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 8px;
+  font-size: 1.2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.todo-item button:focus {
+  outline: none;
+}
+
+.update-item {
+  background-color: #ff80bf;
+  color: #000;
+}
+
+.delete-item {
+  background-color: #ff4d4d;
+  color: #fff;
+}
+
+.update-form {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.update-new-input {
+  width: 80%;
+  border-radius: 6px;
+  border: none;
+  padding: 8px;
+  outline: none;
+  font-size: 1.2rem;
+  background-color: #292929;
+  color: #fff;
+}
+
+.update-new-btn {
+  background-color: #cc00ff;
+  color: #000;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 15px;
+  font-size: 1.2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+
